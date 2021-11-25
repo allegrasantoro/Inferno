@@ -181,12 +181,12 @@ public class PlayerController : MonoBehaviour
         //getting damage
         else {
             
-            GettingDamage(other);
+            DeathPlayer(other);
 
         }
     }
 
-    private void GettingDamage(Collision2D other) {
+    private void DeathPlayer(Collision2D other) {
 
 
     }

@@ -16,10 +16,10 @@ public class CameraController : MonoBehaviour
     //My methods
     void FollowingPlayer() {
         if (player.position.x > -1.8f) {
-            transform.position = new Vector3(player.position.x, -0.8f, transform.position.z);
+            transform.position = new Vector3(player.position.x, -0.9f, transform.position.z);
         }
         else {
-            transform.position = new Vector3(-3.31f, -0.8f, transform.position.z);
+            transform.position = new Vector3(-3.31f, -0.9f, transform.position.z);
         }
 
         //add stuff for end
